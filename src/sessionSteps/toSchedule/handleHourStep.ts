@@ -5,20 +5,10 @@ export default function handleHourStep(
   session: any,
   content: any
 ) {
-  console.log("session");
-  console.log("session");
-  console.log(session);
-  console.log("session");
-  console.log("session");
+
 
   session.data.hour = content;
-  console.log("session")
-  console.log("session")
-  console.log("session")
-  console.log(session)
-  console.log("session")
-  console.log("session")
-  console.log("session")
+
   session.step = "completed";
   console.log("Estado da sessão atualizado para 'confirm' em handleDateStep");  // Log adicionado
   const buttons = [
